@@ -1,0 +1,38 @@
+[
+  {
+    "id": "scale-01",
+    "name": "Precision Coffee Scale",
+    "category": "Brewing Tools",
+    "price": 30,
+    "description": "Digital scale with timer for accurate pour-over recipes.",
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1557256611-210fcc4476d7?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "dripper-02",
+    "name": "Ceramic Pour Over Dripper",
+    "category": "Brewers",
+    "price": 45,
+    "description": "Classic cone dripper for clean and bright cups.",
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1521677446241-d182a96ec49f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "kettle-03",
+    "name": "Gooseneck Kettle",
+    "category": "Kettles",
+    "price": 120,
+    "description": "Stainless steel kettle with precise pouring control.",
+    "stock": 7,
+    "image": "https://images.unsplash.com/photo-1592417766326-088bf3da80c5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "grinder-04",
+    "name": "Hand Burr Grinder",
+    "category": "Grinders",
+    "price": 90,
+    "description": "Portable burr grinder with consistent grind size.",
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1637320508220-99ca385295f6?q=80&w=625&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
