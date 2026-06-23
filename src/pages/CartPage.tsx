@@ -87,7 +87,7 @@ export function CartPage() {
 
     const cardDigits = values.cardNumber.replace(/\s/g, '')
     if (!/^\d{16}$/.test(cardDigits)) {
-      nextErrors.cardNumber = 'Card number must be 16 digits.'
+      nextErrors.cardNumber = 'Credit card number must be 16 digits.'
     }
 
     if (!/^(0[1-9]|1[0-2])\/\d{2}$/.test(values.expiry)) {
