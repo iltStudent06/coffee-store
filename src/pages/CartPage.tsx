@@ -146,7 +146,7 @@ export function CartPage() {
               <div className="cart-item-details">
                 <p>Qty: {item.quantity}</p>
                 <p>${item.price.toFixed(0)} each</p>
-                <p className="product-price">${lineTotal.toFixed(0)}</p>
+                <p className="product-price">Total: ${lineTotal.toFixed(0)}</p>
                 <button
                   type="button"
                   className="cart-remove"
@@ -159,7 +159,7 @@ export function CartPage() {
           )
         })}
       </ul>
-      <p className="cart-total">Total: ${totalCost.toFixed(0)}</p>
+      <p className="cart-total">Total Order: ${totalCost.toFixed(0)}</p>
       <form className="checkout-form" onSubmit={handleSubmit} noValidate>
         <p>Please provide payment information:</p>
         <label htmlFor="checkout-name">Name</label>

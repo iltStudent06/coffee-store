@@ -1,4 +1,4 @@
-#Your component hierarchy and how you decided what to extract into separate components 
+# Your component hierarchy and how you decided what to extract into separate components 
 
 The application follows a layered React structure:
 
@@ -14,7 +14,7 @@ Shared logic is separated into CartContext.tsx for cart state and useFetch.ts fo
 
 I used a scope-and-reuse rule to decide extraction. I extracted components when it is shared responsibility or cross-route reuse. When it is single-page behavior, I kept local.
 
-#State management decisions — where state lives, why you chose Context vs. lifting state 
+# State management decisions — where state lives, why you chose Context vs. lifting state 
 
 State is organized by scope of responsibility:
 
@@ -30,7 +30,7 @@ Contact and checkout form state is not reused across routes, so keeping it local
 
 This keeps ownership clear: shared business state is global, transient page behavior is local.
 
-#Your custom hook(s) and what logic they encapsulate 
+# Your custom hook(s) and what logic they encapsulate 
 
 This project uses 2 custom hooks:
 
@@ -40,7 +40,7 @@ This project uses 2 custom hooks:
 
 Together, they keep page components focused on rendering and page-specific behavior, while shared data and state-management logic stays centralized and reusable.
 
-#How you structured routes and handled data fetching 
+# How you structured routes and handled data fetching 
 
 I centralized routes in App.tsx, where each path maps directly to a page component inside the shared Layout.tsx: / (product list), /product/:productId (product detail), /contact, and /cart. This keeps navigation structure simple and makes each page responsible for one user flow.
 
