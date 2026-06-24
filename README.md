@@ -1,6 +1,6 @@
 # Coffee Store (The Grind Studio)
 
-A React + TypeScript single-page storefront for coffee brewing accessories.
+A React + TypeScript storefront for coffee brewing tools and accessories.
 
 ## Overview
 
@@ -26,7 +26,7 @@ This project demonstrates a small e-commerce style workflow:
 
 ### Prerequisites
 
-- Node.js 20+ (recommended)
+- Node.js 20+
 - npm
 
 ### Install
@@ -50,7 +50,7 @@ Then open the local URL shown in your terminal (usually `http://localhost:5173`)
 - `npm run preview` – preview production build locally
 - `npm run lint` – run ESLint
 - `npm run test` – run tests in watch mode
-- `npm run test:run` – run tests once (CI-style)
+- `npm run test:run` – run tests once
 
 ## Routes
 
