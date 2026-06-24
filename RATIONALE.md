@@ -24,11 +24,9 @@ Local user interface state stays inside page components in CartPage.tsx and Cont
 
 I chose Context instead of lifting state because cart data is needed across non-parent/child branches (header cart badge in Layout.tsx, product pages, and cart page). Lifting to a common ancestor would force prop drilling through multiple layers and routes. Context gives one shared source of truth with cleaner consumption via the custom hook, reducing coupling between components.
 
-Why some state is not in Context:
-
 Contact and checkout form state is not reused across routes, so keeping it local avoids unnecessary global complexity.
 
-This keeps ownership clear: shared business state is global, transient page behavior is local.
+This approach keeps ownership clear: shared business state is global, transient page behavior is local.
 
 # Your custom hook(s) and what logic they encapsulate 
 
