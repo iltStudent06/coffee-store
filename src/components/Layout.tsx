@@ -30,7 +30,7 @@ export function Layout({ children }: LayoutProps) {
           <p className="footer-name">The Grind Studio</p>
           <p>128 Roast Lane, Boston, MA 02116</p>
           <p>
-            Phone: (617) 555-0188  -  Email: hello@thegrindstudio.com
+            Phone: (617) 555-0188  -  Email: hello@grindstudio.com
           </p>
         </div>
       </footer>
